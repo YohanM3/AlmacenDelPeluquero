@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>El Almacen del Peluquero-Productos</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class=" container row">
+		<div class="bg-black"></div>
+		<h1 class="text-bg-warning p-3 text-center">El Almacen del Peluquero</h1>
+		<div class="input-group p-2">
+			<div class="form-floating">
+				<textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+				<label for="floatingTextarea">Search</label>
+			</div>
+			<button class="btn btn-outline-secondary" type="button" id="button-addon1">Buscar</button>
+			<button class="btn btn-outline-secondary" type="button" id="button-addon2">Nuevo Producto</button>
+		</div>
+		<div name="table" id="tableForm" class="m-2 row">
+			<table class="table table-dark table-striped col-12 text-center">
+				<thead>
+					<tr>
+						<th class="col-1">Code</th>
+						<th class="col-2">Name</th>
+						<th class="col-1">Measure</th>
+						<th class="col-2">Brand</th>
+						<th class="col-1">Purchase Price</th>
+						<th class="col-1">Sale price</th>
+					</tr>
+				</thead>
+				<tbody class="table table-hover">
+					<tr>
+						<th class="col-1">tin001</th>
+						<td class="col-2">cenizo claro</td>
+						<td class="col-1">200ml</td>
+						<td class="col-2">Loreal</td>
+						<td class="col-1">100</td>
+						<td class="col-1">143</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<script src="/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
